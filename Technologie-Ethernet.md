@@ -63,6 +63,8 @@ Le plus souvent l'adresse MAc est gravée dans la mémoire morte de la carte ré
 
 Quand un paquet attein la carte réseau, la carte réseau compare l'adresse MAC de destination par rapport a celle stockée en mémoire vive et interprète le paquet s'il est la destination.
 
+Une adresse Mac qui commence avec 01-00-5E est une adresse qui atteint un groupe d'hôtes spécifique (multidiffusion)
+
 Les commutateurs utilisent deux types de methodes pour transferer les trames vers le port associé :
 
 * **Cut-Through** Achemine la trame avant qu'elle ne soit complètement lue et ne contrôle pas les érreurs; dans la variante fast-forward, les donnes sont immediatement transmises et cela peut poser certains problèmes mais permet un fort débit;La seconde variant Fragment-free consiste a stocker les 64 premier octets avant de conclure a un port vers lequel communiquer et procèder a un petit check des érreurs de trames
