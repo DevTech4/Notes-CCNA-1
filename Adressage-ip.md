@@ -6,6 +6,13 @@ Pour éfféctuer la conversion, il faut commencer par comprendre la notation pon
 
 ====>7.1<====
 
+IPV4 a réservé les adresses 224.0.0.0 à 239.255.255.255 comme plage de multidiffusion
+
+Les plages IP spéciales:
+Adresses de bouclage (127.0.0.0 /8 ou 127.0.0.1 à 127.255.255.254) : couramment appelées 127.0.0.1, ces adresses spéciales sont utilisées par des hôtes pour diriger le trafic vers eux-mêmes. Par exemple, elles peuvent être utilisées sur un hôte pour vérifier si la configuration TCP/IP est opérationnelle
+Adresses locales-liens (169.254.0.0 /16 ou 169.254.0.1 à 169.254.255.254) : plus connues sous le nom d'adresses APIPA
+Adresses TEST-NET (192.0.2.0/24 ou 192.0.2.0 à 192.0.2.255) : ces adresses sont réservées à des fins pédagogiques et utilisées dans la documentation et dans des exemples de réseau. 
+
 ##IPv6
 
 Une adresse IPv6 est longue de 128 Bits et est représentée comme une suite d'enesembles de 4 signes hexadécimaux appelés segments. Pour réduire cette adresse on peut : 
